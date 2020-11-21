@@ -11,9 +11,11 @@
 
 
 2. INSTALLATION - How to install and setup your code
-   The zip file contain small dataset we used in the project.
+   The zip file contains small datasets we used in the project.
    There's another dataset with large size, we uploaded it to Google drive, it can be access from: https://drive.google.com/file/d/1p984YVIDL1lErup3fFUZ4lACHAbG7oUe/view
-   Import the yml environment to get necessary packages installed
+   First install Anaconda https://www.anaconda.com/products/individual
+   Then use Conda terminal to create new enviroment using commands:
+   conda env create --file environment.yml 
    Manually install pmdarima by 'pip3 install pmdarima'
 
 3. EXECUTION
