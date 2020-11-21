@@ -1,0 +1,12 @@
+name: py38
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - notebook
+  - matplotlib
+  - seaborn
+  - pytorch
+  - glueviz
+  - lightgbm
+prefix: /Users/laibohan/.pyenv/versions/anaconda3-5.0.1/envs/py38
