@@ -11,18 +11,23 @@
 
 
 2. INSTALLATION - How to install and setup your code
-   The zip file contains small datasets we used in the project.
-   There's another dataset with large size, we uploaded it to Google drive, it can be access from: https://drive.google.com/file/d/1p984YVIDL1lErup3fFUZ4lACHAbG7oUe/view
+   The zip file contains state_full_abbr.csv and us-states.csv we used in the project.
+   There's another dataset with large size (weekly_housing_market_data_most_recent.tsv), we uploaded it to Google drive, it can be access from: https://drive.google.com/file/d/1p984YVIDL1lErup3fFUZ4lACHAbG7oUe/view
    First install Anaconda https://www.anaconda.com/products/individual
    Then use Conda terminal to create new enviroment using commands:
    conda env create --file environment.yml 
    Manually install pmdarima by 'pip3 install pmdarima'
 
 3. EXECUTION
-   Execute the ipynb files in orders: 
+   Execute the ipynb files in the following order (you have to complete the execution before you move to next file): 
 	House Data - Data Processing.ipynb
 	team152.ipynb
 	SARIMA.ipynb
 	LSTM.ipynb
 	final_result_lstm_sarima.ipynb
 	clustering.ipynb
+
+	note: state_full_abbr.csv, us-states.csv and weekly_housing_market_data_most_recent.tsv should be in the same folder
+
+The files are also available on Github
+https://github.com/ordinary0miracle/Team152
