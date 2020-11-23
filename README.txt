@@ -29,5 +29,10 @@
 
 	note: state_full_abbr.csv, us-states.csv and weekly_housing_market_data_most_recent.tsv should be in the same folder
 
+	For visualization, simply open DVA project dashbaord_152.twbx
+
+Our Project visualization: Tableau dashboard is available at 
+https://public.tableau.com/profile/jiebei#!/vizhome/DVAprojectdashbaord-Final2/152?publish=yes
+
 The files are also available on Github
 https://github.com/ordinary0miracle/Team152
